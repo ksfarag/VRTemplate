@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8860690462976714641}
   - component: {fileID: 2331245836676642001}
   - component: {fileID: 7707464319810575510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6027860182874926452}
   - component: {fileID: 7980823428326604169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Teleportation Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

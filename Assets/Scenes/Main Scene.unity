@@ -540,6 +540,12 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!4 &1838748101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4330873491927073211, guid: 5091ce8851b4af141a97749b270b9229,
+    type: 3}
+  m_PrefabInstance: {fileID: 4330873492773220706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1855335493
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +652,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2241619231484925509}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2015775674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4330873492388945001, guid: 5091ce8851b4af141a97749b270b9229,
+    type: 3}
+  m_PrefabInstance: {fileID: 4330873492773220706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2019112313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8541285738709999306, guid: 24ebf4d40c4798e4fbee5219780cb438,
@@ -714,20 +726,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6763396797930831823, guid: 179357fbc2895d642b6f742ccfb41e71,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 6782836401118972644, guid: 179357fbc2895d642b6f742ccfb41e71,
         type: 3}
       propertyPath: m_Name
       value: Teleportation Anchor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6782836401118972644, guid: 179357fbc2895d642b6f742ccfb41e71,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7980823428326604169, guid: 179357fbc2895d642b6f742ccfb41e71,
         type: 3}
@@ -886,10 +888,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526529493}
     m_Modifications:
-    - target: {fileID: 1299437785, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
-      propertyPath: m_InteractionManager
+    - target: {fileID: 590277097430750700, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: LeftHand
       value: 
-      objectReference: {fileID: 1045651852}
+      objectReference: {fileID: 1838748101}
+    - target: {fileID: 590277097430750700, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: RightHand
+      value: 
+      objectReference: {fileID: 2015775674}
     - target: {fileID: 4511655667520052993, guid: 087e2a9d318d8b842b11b221d1f79534,
         type: 3}
       propertyPath: m_RootOrder
@@ -1051,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.078
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
@@ -1061,7 +1069,7 @@ PrefabInstance:
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
@@ -1172,20 +1180,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6763396797930831823, guid: 179357fbc2895d642b6f742ccfb41e71,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 6782836401118972644, guid: 179357fbc2895d642b6f742ccfb41e71,
         type: 3}
       propertyPath: m_Name
       value: Teleportation Anchor
-      objectReference: {fileID: 0}
-    - target: {fileID: 6782836401118972644, guid: 179357fbc2895d642b6f742ccfb41e71,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7980823428326604169, guid: 179357fbc2895d642b6f742ccfb41e71,
         type: 3}
