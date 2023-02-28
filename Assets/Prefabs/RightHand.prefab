@@ -1311,10 +1311,10 @@ MonoBehaviour:
   R3Click:
     m_UseReference: 1
     m_Action:
-      m_Name: R3 Click
+      m_Name: 
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: c71a2de8-15eb-4c8e-8d4c-53a582b76e2e
+      m_Id: 
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []

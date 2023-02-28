@@ -247,7 +247,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_CustomReticle: {fileID: 0}
@@ -405,7 +405,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1261349154 stripped
 Transform:
@@ -644,7 +644,7 @@ Transform:
   - {fileID: 515705467}
   - {fileID: 326426871}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1990939957 stripped
 Transform:
@@ -1041,6 +1041,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 25694573, guid: 5091ce8851b4af141a97749b270b9229, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1045651852}
+    - target: {fileID: 1783369815, guid: 5091ce8851b4af141a97749b270b9229, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1045651852}
     - target: {fileID: 4330873491927073214, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
       propertyPath: m_InteractionManager
@@ -1054,7 +1062,7 @@ PrefabInstance:
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4330873492005950246, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
@@ -1107,11 +1115,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330873492388945004, guid: 5091ce8851b4af141a97749b270b9229,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 1045651852}
-    - target: {fileID: 4330873492983727115, guid: 5091ce8851b4af141a97749b270b9229,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
