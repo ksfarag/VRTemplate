@@ -14,12 +14,10 @@ public class TwoHandedXRInteractable : XRGrabInteractable
         if (args.interactorObject.transform == RightHand)
         {
             attachTransform = RightAttachPoint;
-            Debug.Log("Right");
         }
         else if (args.interactorObject.transform == LeftHand)
         {
             attachTransform = LeftAttachPoint;
-            Debug.Log("Left");
         }
 
         base.OnSelectEntered(args);
